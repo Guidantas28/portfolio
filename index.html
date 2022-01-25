@@ -12,6 +12,7 @@
             href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
+        <script src="script.js"></script>
 
         <title>Portfolio</title>
     </head>
@@ -21,7 +22,7 @@
                 <div class="left-container">
                     <header class="cards">
                         <div class="avatar">
-                            <img src="https://avatars.githubusercontent.com/u/73999334?s=40&v=4" alt="Profile Picture">
+                            <img id="profile-picture" src="./assets/me.png" alt="Profile Picture">
                         </div>
                         <div class="informations">
                             <h1>Guilherme Dantas</h1>
@@ -54,7 +55,7 @@
                             <a href="mailto:=guilhermedantas788@gmail.com"><p class="text-link">guilhermedantas788@gmail.com</p></a>
                         </div>
                     </div>
-                    <div class="techs card">
+                    <div class="techs cards">
                         <h2>Tecnologias</h2>
                         <div class="techs-grid">
                             <p>HTML</p>
@@ -71,11 +72,32 @@
                     <div class="projects">
                         <h2>Meus projetos</h2>
                     </div>
-                        <div class="projects-grid">
-
-                        </div>
+                    <div class="projects-grid">
+                        <div class="project cards">
+                            <div class="project-header">
+                                <img src="assets/folder.svg" alt="pasta">
+                                <h3 class="project-tittle"></h3>
+                            </div>
+                            <div class="project-details">
+                                <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eveniet ut nihil necessitatibus rerum quibusdam! Tenetur ducimus</p>
+                                <div class="project-stats">
+                                    <div class="branch-stars-container">
+                                        <span class="stars-container">
+                                        <img src="assets/star.svg" alt="estrela">
+                                        <span class="stars-total">100 (pl)</span>
+                                    </span>
+                                    <span class="branch">
+                                        <img src="assets/git-branch.svg" alt="branch">
+                                        <span class="branchs-total">10 (pl)</span>
+                                    </span>
+                                    </div>
+                                    
+                                    <span class="language">JavaScript (pl)</span>
+                                </div>
+                            </div>
                 </div>
             </main>
+            <footer>Feito por <a>Guidantas28</a> </footer>
         </div>
     </body>
 </html>
