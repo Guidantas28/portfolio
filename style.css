@@ -154,3 +154,58 @@ header .informations h2{
 .project-header img{
     margin-right: 1rem;
 }
+
+.project-header .project-title{
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.project .project-description{
+    font-size: 1rem;
+    font-weight:500;
+}
+
+.project-details{
+    margin-top: 1rem;
+}
+
+.project-stats{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    font-size: 0.90rem;
+}
+
+.branch-stars{
+    display: flex;
+}
+
+.project-stats span{
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.project-stats span.language{
+    font-size: 14px;
+}
+
+.branch img, .stars-container img{
+    margin-right: 0.3rem;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{
+    margin-left: 0.5rem
+}
+
+footer a:hover{
+    color: white;
+}
